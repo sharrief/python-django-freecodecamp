@@ -17,7 +17,14 @@
 	// "postCreateCommand": "pip install --user -r requirements.txt",
 	"postStartCommand": {
     "setupGit": "git config --global user.name 'Sharrief Shabazz'; git config --global user.email 'sharrief.shabazz@gemini.com'; git config --global gpg.format ssh; git config --global commit.gpgsign true; git config --global gpg.ssh.defaultKeyCommand 'ssh-add -L'"
-  }
+},
+"customizations": {
+	"vscode": {
+		"extensions": [
+			"batisteo.vscode-django"
+		]
+	}
+}
 
 	// Configure tool-specific properties.
 	// "customizations": {},
